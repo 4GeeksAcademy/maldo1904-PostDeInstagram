@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+.post{
+    background-color: white;
+    padding: 0;
+    margin: 50px auto; /* Centra el post en la página */
+    max-width: 500px; /* Limita el ancho máximo del post */
+    width: 90%; /* Hace que el post ocupe el 90% del ancho disponible */
+}
+
+.post img{
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    margin-bottom: 7px; /* Espacio entre el logo y la imagen */
+    padding-top: 10px;
+    margin-left: 10px;
+    align-items: center; /* Alinea verticalmente los elementos dentro del logo */
+}
+
+.usuario {
+    display: flex;
+    flex-direction: column; /* Coloca a Rigoberto en una columna */
+    justify-content: space-between;
+    margin-left: 10px; /* Da espacio entre el logo y el texto */
+    height: 35px; /* Altura logo = Html5 + rigoberto */
+}
+
+.logo i {
+    font-size: 25px; 
+}
+
+.usuario p {
+    margin: 0; 
+    font-size: 16px;
+}
+
+.puntos {
+    margin-left: auto;
+    padding-right: 20px
+}
+
+.post img{
+    width: 100%;
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+}
+
+.interaccion {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.texto{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.interaccion i {
+    font-size: 25px; 
+    margin-right: 10px; /* Agrega espacio entre los iconos */
+}
+
+.guardar {
+    margin-left: auto;
+}
